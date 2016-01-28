@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		884437F61C59B5EB00D1C1B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 884437F51C59B5EB00D1C1B2 /* main.m */; };
+		884437F91C59B5EB00D1C1B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 884437F81C59B5EB00D1C1B2 /* AppDelegate.m */; };
+		884437FC1C59B5EB00D1C1B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 884437FB1C59B5EB00D1C1B2 /* ViewController.m */; };
+		884437FF1C59B5EB00D1C1B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 884437FD1C59B5EB00D1C1B2 /* Main.storyboard */; };
+		884438011C59B5EB00D1C1B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 884438001C59B5EB00D1C1B2 /* Assets.xcassets */; };
+		884438041C59B5EB00D1C1B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 884438021C59B5EB00D1C1B2 /* LaunchScreen.storyboard */; };
+		8844380F1C59B5EB00D1C1B2 /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8844380E1C59B5EB00D1C1B2 /* ________Tests.m */; };
+		8844381A1C59B5EB00D1C1B2 /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 884438191C59B5EB00D1C1B2 /* ________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8844380B1C59B5EB00D1C1B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 884437E91C59B5EB00D1C1B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 884437F01C59B5EB00D1C1B2;
+			remoteInfo = "微信发红包看照片";
+		};
+		884438161C59B5EB00D1C1B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 884437E91C59B5EB00D1C1B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 884437F01C59B5EB00D1C1B2;
+			remoteInfo = "微信发红包看照片";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		884437F11C59B5EB00D1C1B2 /* 微信发红包看照片.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "微信发红包看照片.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		884437F51C59B5EB00D1C1B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		884437F71C59B5EB00D1C1B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		884437F81C59B5EB00D1C1B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		884437FA1C59B5EB00D1C1B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		884437FB1C59B5EB00D1C1B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		884437FE1C59B5EB00D1C1B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		884438001C59B5EB00D1C1B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		884438031C59B5EB00D1C1B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		884438051C59B5EB00D1C1B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8844380A1C59B5EB00D1C1B2 /* 微信发红包看照片Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "微信发红包看照片Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8844380E1C59B5EB00D1C1B2 /* ________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________Tests.m"; sourceTree = "<group>"; };
+		884438101C59B5EB00D1C1B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		884438151C59B5EB00D1C1B2 /* 微信发红包看照片UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "微信发红包看照片UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		884438191C59B5EB00D1C1B2 /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
+		8844381B1C59B5EB00D1C1B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		884437EE1C59B5EB00D1C1B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884438071C59B5EB00D1C1B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884438121C59B5EB00D1C1B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		884437E81C59B5EB00D1C1B2 = {
+			isa = PBXGroup;
+			children = (
+				884437F31C59B5EB00D1C1B2 /* 微信发红包看照片 */,
+				8844380D1C59B5EB00D1C1B2 /* 微信发红包看照片Tests */,
+				884438181C59B5EB00D1C1B2 /* 微信发红包看照片UITests */,
+				884437F21C59B5EB00D1C1B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		884437F21C59B5EB00D1C1B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				884437F11C59B5EB00D1C1B2 /* 微信发红包看照片.app */,
+				8844380A1C59B5EB00D1C1B2 /* 微信发红包看照片Tests.xctest */,
+				884438151C59B5EB00D1C1B2 /* 微信发红包看照片UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		884437F31C59B5EB00D1C1B2 /* 微信发红包看照片 */ = {
+			isa = PBXGroup;
+			children = (
+				884437F71C59B5EB00D1C1B2 /* AppDelegate.h */,
+				884437F81C59B5EB00D1C1B2 /* AppDelegate.m */,
+				884437FA1C59B5EB00D1C1B2 /* ViewController.h */,
+				884437FB1C59B5EB00D1C1B2 /* ViewController.m */,
+				884437FD1C59B5EB00D1C1B2 /* Main.storyboard */,
+				884438001C59B5EB00D1C1B2 /* Assets.xcassets */,
+				884438021C59B5EB00D1C1B2 /* LaunchScreen.storyboard */,
+				884438051C59B5EB00D1C1B2 /* Info.plist */,
+				884437F41C59B5EB00D1C1B2 /* Supporting Files */,
+			);
+			path = "微信发红包看照片";
+			sourceTree = "<group>";
+		};
+		884437F41C59B5EB00D1C1B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				884437F51C59B5EB00D1C1B2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8844380D1C59B5EB00D1C1B2 /* 微信发红包看照片Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8844380E1C59B5EB00D1C1B2 /* ________Tests.m */,
+				884438101C59B5EB00D1C1B2 /* Info.plist */,
+			);
+			path = "微信发红包看照片Tests";
+			sourceTree = "<group>";
+		};
+		884438181C59B5EB00D1C1B2 /* 微信发红包看照片UITests */ = {
+			isa = PBXGroup;
+			children = (
+				884438191C59B5EB00D1C1B2 /* ________UITests.m */,
+				8844381B1C59B5EB00D1C1B2 /* Info.plist */,
+			);
+			path = "微信发红包看照片UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		884437F01C59B5EB00D1C1B2 /* 微信发红包看照片 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8844381E1C59B5EB00D1C1B2 /* Build configuration list for PBXNativeTarget "微信发红包看照片" */;
+			buildPhases = (
+				884437ED1C59B5EB00D1C1B2 /* Sources */,
+				884437EE1C59B5EB00D1C1B2 /* Frameworks */,
+				884437EF1C59B5EB00D1C1B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "微信发红包看照片";
+			productName = "微信发红包看照片";
+			productReference = 884437F11C59B5EB00D1C1B2 /* 微信发红包看照片.app */;
+			productType = "com.apple.product-type.application";
+		};
+		884438091C59B5EB00D1C1B2 /* 微信发红包看照片Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 884438211C59B5EB00D1C1B2 /* Build configuration list for PBXNativeTarget "微信发红包看照片Tests" */;
+			buildPhases = (
+				884438061C59B5EB00D1C1B2 /* Sources */,
+				884438071C59B5EB00D1C1B2 /* Frameworks */,
+				884438081C59B5EB00D1C1B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8844380C1C59B5EB00D1C1B2 /* PBXTargetDependency */,
+			);
+			name = "微信发红包看照片Tests";
+			productName = "微信发红包看照片Tests";
+			productReference = 8844380A1C59B5EB00D1C1B2 /* 微信发红包看照片Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		884438141C59B5EB00D1C1B2 /* 微信发红包看照片UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 884438241C59B5EB00D1C1B2 /* Build configuration list for PBXNativeTarget "微信发红包看照片UITests" */;
+			buildPhases = (
+				884438111C59B5EB00D1C1B2 /* Sources */,
+				884438121C59B5EB00D1C1B2 /* Frameworks */,
+				884438131C59B5EB00D1C1B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				884438171C59B5EB00D1C1B2 /* PBXTargetDependency */,
+			);
+			name = "微信发红包看照片UITests";
+			productName = "微信发红包看照片UITests";
+			productReference = 884438151C59B5EB00D1C1B2 /* 微信发红包看照片UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		884437E91C59B5EB00D1C1B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "王宇";
+				TargetAttributes = {
+					884437F01C59B5EB00D1C1B2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					884438091C59B5EB00D1C1B2 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 884437F01C59B5EB00D1C1B2;
+					};
+					884438141C59B5EB00D1C1B2 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 884437F01C59B5EB00D1C1B2;
+					};
+				};
+			};
+			buildConfigurationList = 884437EC1C59B5EB00D1C1B2 /* Build configuration list for PBXProject "微信发红包看照片" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 884437E81C59B5EB00D1C1B2;
+			productRefGroup = 884437F21C59B5EB00D1C1B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				884437F01C59B5EB00D1C1B2 /* 微信发红包看照片 */,
+				884438091C59B5EB00D1C1B2 /* 微信发红包看照片Tests */,
+				884438141C59B5EB00D1C1B2 /* 微信发红包看照片UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		884437EF1C59B5EB00D1C1B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884438041C59B5EB00D1C1B2 /* LaunchScreen.storyboard in Resources */,
+				884438011C59B5EB00D1C1B2 /* Assets.xcassets in Resources */,
+				884437FF1C59B5EB00D1C1B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884438081C59B5EB00D1C1B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884438131C59B5EB00D1C1B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		884437ED1C59B5EB00D1C1B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884437FC1C59B5EB00D1C1B2 /* ViewController.m in Sources */,
+				884437F91C59B5EB00D1C1B2 /* AppDelegate.m in Sources */,
+				884437F61C59B5EB00D1C1B2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884438061C59B5EB00D1C1B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8844380F1C59B5EB00D1C1B2 /* ________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884438111C59B5EB00D1C1B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8844381A1C59B5EB00D1C1B2 /* ________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8844380C1C59B5EB00D1C1B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 884437F01C59B5EB00D1C1B2 /* 微信发红包看照片 */;
+			targetProxy = 8844380B1C59B5EB00D1C1B2 /* PBXContainerItemProxy */;
+		};
+		884438171C59B5EB00D1C1B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 884437F01C59B5EB00D1C1B2 /* 微信发红包看照片 */;
+			targetProxy = 884438161C59B5EB00D1C1B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		884437FD1C59B5EB00D1C1B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				884437FE1C59B5EB00D1C1B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		884438021C59B5EB00D1C1B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				884438031C59B5EB00D1C1B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8844381C1C59B5EB00D1C1B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8844381D1C59B5EB00D1C1B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8844381F1C59B5EB00D1C1B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "微信发红包看照片/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wangyu.www.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		884438201C59B5EB00D1C1B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "微信发红包看照片/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wangyu.www.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		884438221C59B5EB00D1C1B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "微信发红包看照片Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wangyu.www.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/微信发红包看照片.app/微信发红包看照片";
+			};
+			name = Debug;
+		};
+		884438231C59B5EB00D1C1B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "微信发红包看照片Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wangyu.www.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/微信发红包看照片.app/微信发红包看照片";
+			};
+			name = Release;
+		};
+		884438251C59B5EB00D1C1B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "微信发红包看照片UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wangyu.www.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "微信发红包看照片";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		884438261C59B5EB00D1C1B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "微信发红包看照片UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wangyu.www.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "微信发红包看照片";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		884437EC1C59B5EB00D1C1B2 /* Build configuration list for PBXProject "微信发红包看照片" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8844381C1C59B5EB00D1C1B2 /* Debug */,
+				8844381D1C59B5EB00D1C1B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8844381E1C59B5EB00D1C1B2 /* Build configuration list for PBXNativeTarget "微信发红包看照片" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8844381F1C59B5EB00D1C1B2 /* Debug */,
+				884438201C59B5EB00D1C1B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		884438211C59B5EB00D1C1B2 /* Build configuration list for PBXNativeTarget "微信发红包看照片Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884438221C59B5EB00D1C1B2 /* Debug */,
+				884438231C59B5EB00D1C1B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		884438241C59B5EB00D1C1B2 /* Build configuration list for PBXNativeTarget "微信发红包看照片UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884438251C59B5EB00D1C1B2 /* Debug */,
+				884438261C59B5EB00D1C1B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 884437E91C59B5EB00D1C1B2 /* Project object */;
+}
