@@ -95,6 +95,8 @@
     
     effectView.frame = imageViewOriginal.bounds;
     [imageViewOriginal addSubview:effectView];
+
+    
     
 }
 -(CGRect)getRandomRectInside:(CGRect)rectFather maxWidth:(CGFloat)maxWidth minWidth:(CGFloat)minWidth
