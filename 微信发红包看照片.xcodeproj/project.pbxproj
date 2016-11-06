@@ -16,6 +16,7 @@
 		8844380F1C59B5EB00D1C1B2 /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8844380E1C59B5EB00D1C1B2 /* ________Tests.m */; };
 		8844381A1C59B5EB00D1C1B2 /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 884438191C59B5EB00D1C1B2 /* ________UITests.m */; };
 		884438331C5A1B0D00D1C1B2 /* wangyu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 884438321C5A1B0D00D1C1B2 /* wangyu.jpg */; };
+		8866B0DC1DCF19D20073B8B2 /* 1372245-91d583c4605723cf.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8866B0DB1DCF19D20073B8B2 /* 1372245-91d583c4605723cf.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		884438191C59B5EB00D1C1B2 /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
 		8844381B1C59B5EB00D1C1B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		884438321C5A1B0D00D1C1B2 /* wangyu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wangyu.jpg; sourceTree = "<group>"; };
+		8866B0DB1DCF19D20073B8B2 /* 1372245-91d583c4605723cf.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "1372245-91d583c4605723cf.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		884437F31C59B5EB00D1C1B2 /* 微信发红包看照片 */ = {
 			isa = PBXGroup;
 			children = (
+				8866B0DA1DCF19BE0073B8B2 /* screenshots */,
 				884438321C5A1B0D00D1C1B2 /* wangyu.jpg */,
 				884437F71C59B5EB00D1C1B2 /* AppDelegate.h */,
 				884437F81C59B5EB00D1C1B2 /* AppDelegate.m */,
@@ -141,6 +144,14 @@
 				8844381B1C59B5EB00D1C1B2 /* Info.plist */,
 			);
 			path = "微信发红包看照片UITests";
+			sourceTree = "<group>";
+		};
+		8866B0DA1DCF19BE0073B8B2 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				8866B0DB1DCF19D20073B8B2 /* 1372245-91d583c4605723cf.gif */,
+			);
+			path = screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +260,7 @@
 				884438331C5A1B0D00D1C1B2 /* wangyu.jpg in Resources */,
 				884438041C59B5EB00D1C1B2 /* LaunchScreen.storyboard in Resources */,
 				884438011C59B5EB00D1C1B2 /* Assets.xcassets in Resources */,
+				8866B0DC1DCF19D20073B8B2 /* 1372245-91d583c4605723cf.gif in Resources */,
 				884437FF1C59B5EB00D1C1B2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
